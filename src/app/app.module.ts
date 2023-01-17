@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CargarScriptsService } from 'src/cargar-scripts.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +19,9 @@ import { FacturaComponent } from './factura/factura.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

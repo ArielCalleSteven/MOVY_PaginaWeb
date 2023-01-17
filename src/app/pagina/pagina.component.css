@@ -145,7 +145,7 @@ header .icons a{
 
 
 header .icons i:hover,
-header .iconos a:hover{
+header .icons a:hover{
     color: #fff;
     background: #63B558;
     transform: rotate(180deg);
